@@ -231,3 +231,7 @@ vendor/bin/codecept run functional,unit -- --coverage-html --coverage-xml
 ```
 
 You can see code coverage output under the `tests/_output` directory.
+
+
+yii migrate/create create_car_table --fields=brand:string(15):notNull,model:string(25),equipment:string(40):notNull,year_from:year:notNull,year_to:year,generation:string(25)
+
